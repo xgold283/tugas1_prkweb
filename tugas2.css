@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: initial;
+    background-color: gold;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: gold;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: gold;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
